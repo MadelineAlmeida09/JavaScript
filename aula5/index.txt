@@ -1,0 +1,2 @@
+Variável é o nome utilizado para definir um ou mais valores que são manipulados pelos programas durante a sua operação.
+
