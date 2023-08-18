@@ -1,2 +1,13 @@
+1 - O que são variaveis
 Variável é o nome utilizado para definir um ou mais valores que são manipulados pelos programas durante a sua operação.
 
+2 - como declarar uma variável numérica inteira ou real usando javascript.
+Com a palavra chave var . Por exemplo, var x = 42 . Esta sintaxe pode ser usada para declarar tanto variáveis locais como variáveis globais
+ou
+Por simples adição de valor. Por exemplo, x = 42 . ...
+
+3 - quais são os tipos primitivos de javascript
+String, Number, Boolean, Null, undefined, object e fuction.
+
+4 - o que significa colocar o valor null dentro de uma variavel
+indica que a Variant não contém dados válidos. Null não é igual a Vazio, que indica que uma variável ainda não foi inicializada. 
