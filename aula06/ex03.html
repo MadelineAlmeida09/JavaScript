@@ -18,12 +18,21 @@
 <body>
     <h1>Olá, Mundo!</h1>
     <script>
-       var n1 = Number.parseInt(window.prompt('Digite um número: '))
-       var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+       var n1 = Number(window.prompt('Digite um número: '))
+       var n2 = Number(window.prompt('Digite outro número: '))
        var s = n1 + n2
-       window.alert('A soma de dois valores é ')
+       window.alert('A soma de dois valores é ' + s)
        // (number + number) adição
        // (string + string) concatenação
+
+       //conversão string > number
+       //number.parseInt(n) == apenas inteiros
+       //number.parseFloat(n) == apenas reais
+       //number(n) == o programa irá identificar
+
+       //conversão number > string
+       //String(n)
+       //n.toString()
     </script>
 </body>
 </html>
