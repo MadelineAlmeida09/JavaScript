@@ -1,0 +1,15 @@
+1 - Como é possível guardar o valor digitado em um prompt() dentro de uma variável?
+r:É preciso declarar como uma variável
+ex:var n1 = window.prompt()
+
+2 - Como fazer com que um número digitado em um prompt() possa ser usado em cálculos?
+r:Adicionando um Number.() no prompt escolhido
+ex:number.parseInt(n) == apenas inteiros
+number.parseFloat(n) == apenas reais
+number(n) == o programa irá identificar
+
+3 - Como transformar um texto todo para letras MAIÚSCULAS?
+r:usando o script s.toUpperCase () na string escolhida
+
+4 - Como mostrar um número formatado como um valor monetário?
+r:usando o script n1.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})
