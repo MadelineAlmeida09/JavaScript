@@ -13,3 +13,61 @@ r:usando o script s.toUpperCase () na string escolhida
 
 4 - Como mostrar um número formatado como um valor monetário?
 r:usando o script n1.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})
+
+------------------------------------------
+
+operadores 
+    aritméticos(precisam de dois operandos - binários){
+      5  +  2  = 7 (soma)
+      5  -  2  = 3 (subtração)
+      5  *  2  = 10 (multiplicação)
+      5  /  2  = 2.5 (divisão real)
+      5  %  2  = 1 (divisão inteira)
+      5 **  2  = 25 (potência)
+
+      precendência(
+        1- ()
+        2- **
+        3- *, /, %
+        4- +, -
+      )
+
+      atribuição simples(
+        var a = 5 + 3           8
+        var b = a % 5           3
+        var c = 5 * b ** 2     45
+        var d = 10 - a / 2      6
+        var e = 6 * 2 / d       2
+        var f = b % e + 4 / e   3
+      )
+
+      auto-atribuições(
+        var n = 3
+        n = n + 4    7
+        n = n - 5    2
+        n = n * 4    8
+        n = n / 2    4
+        n = n ** 2   16
+        n = n % 5    1
+
+        simplificação
+        n += 4
+        n -= 5
+        n *= 4
+        n /= 2
+        n **= 2
+        n %= 5
+      )
+
+      incremento(
+        var x = 5
+        x = x + 1   x++(soma depois)
+        x + x - 1   x--(subtrai depois)
+                    ++x(soma antes)
+                    --x (subtrai depois) 
+      )
+    }
+    atribuição
+    relacionais
+    lógicos
+    ternários
