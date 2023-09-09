@@ -1,0 +1,147 @@
+1 - Para que serve o operador % em JS? Seria para calcular porcentagem?
+R: Ele representa o resto da divisão entre dois valores, sendo essa divisão de valores inteiros. se % = 0 é divisivel, senão, não é.
+
+2- 6 + 4 / 2 é igual a 5 ou 8?
+R: 8, pois utilizando a ordem de precedência, a divisão virá antes da soma.
+
+3 - Se uma variável n está valendo 10 e executamos um n += 5, qual será seu novo valor?
+R: 15, pois o símbolo += é a simplificação de n = n + 5.
+
+4 - Para que serve os operadores ++ e --?
+R: São usados antes ou depois do nome de uma variável para somar(++) ou subtrair(--) 1. Exemplo (n++ ou ++n) e (n-- ou --n). (++ e -- na depois mostra o resultado somente se chamada a variável novamente) e (++ e -- antes mostra o resultado durante a operação).
+
+------------------------------------------
+
+Operadores parte 2
+
+aritméticos
+atribuição
+relacionais{
+ Operadores( 
+     >
+    <
+    >=
+    <=
+    ==
+    !=
+    
+    (
+    < == menor
+    > == maior
+    == == igual
+    != == não igual
+    )
+
+    {Sempre será um valor do tipo boleano, ou seja, verdadeiro ou falso}
+
+  Exemplos de operações relacionais(
+    5  > 2  == verdadeiro
+    7  < 4  == falso
+    8 >= 8  == verdadeiro
+    9 <= 7  == falso
+    5 == 5  == verdadeiro  
+    4 != 4  == falso
+ )
+    {Quando tiver uma operação com operados aritméticos e relacionais, é resolvido primeiramente os aritméticos.
+    Exemplo: a <= b - 10
+    sendo a == 8 e b == 15
+    a expressão seria falsa. pois 15 - 10 == 5 e 5 < 8.}
+
+    exemplos(
+    preço >= 200.50 // preço é maior ou igual a 200.50?
+    idade < 18 // idade é menor que 18?
+    curso == 'JavaScript' // curso é JavaScript?
+    n1 != n2 // n1 é diferente de n2?
+    )
+
+    operadores relacionais identidade(
+        5 == 5    == verdadeiro
+        5 == '5'  == verdadeiro
+        5 === '5' == falso
+        5 === 5   == verdadeiro
+
+        === é o mesmo que identico
+    )
+    {!== desigual restrito representa que são de tipos diferentes mas o valor interno é o mesmo}
+)
+}
+lógicos{
+    operadores(
+        !  == negação   (não)
+        && == conjunçaõ (e)
+        || == disjunção (ou)
+    )
+
+    !(
+        verdadeiro == falso
+        falso      == verdadeiro
+    )
+    &&(
+        verdadeiro && verdadeiro == v
+        verdadeiro && falso      == falso
+        falso      && verdadeiro == falso
+        falso      && falso      == falso
+    )
+    ||(
+        verdadeiro || verdadeiro == v
+        verdadeiro || falso      == v
+        falso      || verdadeiro == v
+        falso      || falso      == falso
+    )
+    [Em uma operação com operadores lógicos, aritméticos e relacionais, é resolvido primeiro os aritméticos, depois os relacionais(da esquerda pra direita) e por último os lógicos
+    Exemplos(
+        se a == 5 e b == 8
+        
+        1º
+        a > b && b % 2 == 0
+        b % 2 == 0 é verdadeiro pois 8 dividido para dois o resto será 0
+        a > b é falso pois 5 é menor que 8
+        então falso && verdadeiro será == á falso.
+
+        2º
+        a <= b || b / 2 == 2
+        b / 2 == 2 é falso pois 8 dividido para 2 é 4
+        a <= b é verdadeiro pois 5 é menor que 8
+        então verdadeiro || falso é verdadeiro.
+    )
+    ordem de precedência(
+        1° - !
+        2° - &&
+        3° - ||
+    )
+    ]
+   Exemplos(
+    idade >= 15 && idade <= 17 // a idade está entre 15 e 17?
+    estado == 'RJ' || estado == 'SP' // o estado é RJ ou SP?
+    salário > 1.500 && sexo != 'M' // o salário é acima de 1500 e não é homem?
+   ) 
+}
+ternários{
+   Estrutura(
+   teste ? verdadeiro : false
+
+   teste == valor de teste lógicos
+   verdadeiro == o que vai acontecer se o valor de teste for verdadeiro 
+   falso == o que vai acontecer se o valor de teste for falso 
+   )
+
+   Exemplos(
+    1°
+    se média for igual a 6
+    média > 7?'APROVADO':'REPROVADO'
+    resultado será REPROVADO
+    se média for igual a 9
+    média > 7?'APROVADO':'REPROVADO'
+    resultado será APROVADO
+
+    2°
+    var x = 8
+    var res = x % 2 == 0 ? 5: 9
+    como 8 dividido para 2 tem como resto 0, estão será mostrado o valor de verdadeiro que é igual a 5, que por sua vez só aparecerá quando a variável res for chamada novamente
+
+    3°
+    var idade = 19
+    var r = idade >= 18 ? 'MAIOR' : 'MENOR'
+    como 19 é maior do que 18, será mostrado op valor verdadeiro da operação, que no caso é MAIOR, que só será mostrado na tela quando a variável r for chamada novamente
+   )
+}

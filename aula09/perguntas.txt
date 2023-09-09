@@ -1,0 +1,22 @@
+1 - Qual a diferença entre usar =, == e === em códigos escritos em JS?
+R: = se refere a recebe
+== se refere a igual
+=== se refere a idêntico.
+
+2 - Em uma mesma expressão, temos os operadores || e &&. Quem eu resolvo primeiro?
+R: De acordo com a ordem de precedência, o && deve ser resolvido primeiro, e em sequência o ||.
+
+3 - Sabe usar o operador ternário para colocar um valor entre dois valores em uma variável?
+R: teste ? verdadeiro : falso.
+
+------------------------------------------
+
+Entendendo o DOM
+O que é?
+R: DOM é um acrónito de um modelo de objetos para documento, que me da acesso para os componentes internos do meu site.
+
+Árvore DOM
+se inicia da raiz(window) ex: tela do navegador
+exemplo de objetos: location, document, history
+Dentro dos objetos tem o html
+dentro desse html existe o head e o body

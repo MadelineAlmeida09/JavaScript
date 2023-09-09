@@ -16,14 +16,14 @@ r:usando o script n1.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})
 
 ------------------------------------------
 
-operadores 
+operadores parte 1
     aritméticos(precisam de dois operandos - binários){
-      5  +  2  = 7 (soma)
-      5  -  2  = 3 (subtração)
-      5  *  2  = 10 (multiplicação)
-      5  /  2  = 2.5 (divisão real)
-      5  %  2  = 1 (divisão inteira)
-      5 **  2  = 25 (potência)
+      5  +  2  == 7 (soma)
+      5  -  2  == 3 (subtração)
+      5  *  2  == 10 (multiplicação)
+      5  /  2  == 2.5 (divisão real)
+      5  %  2  == 1 (divisão inteira)
+      5 **  2  == 25 (potência)
 
       precendência(
         1- ()
@@ -31,7 +31,8 @@ operadores
         3- *, /, %
         4- +, -
       )
-
+    }
+    atribuição{
       atribuição simples(
         var a = 5 + 3           8
         var b = a % 5           3
@@ -65,9 +66,8 @@ operadores
         x + x - 1   x--(subtrai depois)
                     ++x(soma antes)
                     --x (subtrai depois) 
-      )
+      )              
     }
-    atribuição
     relacionais
     lógicos
     ternários
