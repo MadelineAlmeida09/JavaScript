@@ -18,5 +18,33 @@ R: DOM é um acrónito de um modelo de objetos para documento, que me da acesso 
 Árvore DOM
 se inicia da raiz(window) ex: tela do navegador
 exemplo de objetos: location, document, history
-Dentro dos objetos tem o html
+Dentro de document tem o html
 dentro desse html existe o head e o body
+exemplos de tag dentro do head: meta, title...
+exemplos de tag dentro do body: h1, p, p2, div...
+dentro de p2 há a tag strong
+todos os itens da árvore são chamados de elementos
+
+metódos de acesso
+por Marca ou por tag name{
+    comando - getElementsByTagName()
+    consigo selecionar mais de um objeto
+
+    [] seleciona o parágrafo escolhido, exemplo: 1° parágrafo = [0], 2° = [1]...
+
+    innerText = texto sem formatação                                              innerHTML = texto com formatação (em caso de window.alert, as tags também serão visualizadas)
+}
+por ID{
+    comando - getElementById()
+}
+por nome{
+    comando - getElementsByName()
+    consigo selecionar mais de um objeto
+}
+por classe{
+    comando - getElementsByClassName()
+}
+por seletor{
+    comandos - querySelector()
+    querySelectorAll()
+}

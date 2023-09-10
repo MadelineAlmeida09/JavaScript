@@ -1,0 +1,37 @@
+1 - O que significa a sigla DOM?
+R: DOM é a sigla em inglês para Document Object Model, que significa modelo de documento por objetos.
+
+2 - Você consegue montar a árvore DOM de um website simples?
+R: 1 - tela do navegador
+tela do navegador = location, document, history
+document = html
+html = head and body
+head = meta, title...
+body = h1, p, div ...
+
+3 - O que são os elementos Parent e os elementos Child de uma árvore DOM?
+R: Os objetos que seguem nas ramificações de baixo são denominados como child, e os de cima, parent.
+
+4 - Quais são os cinco principais métodos de selecionar elementos DOM dentro do JS?
+por Name, por ID, por seletor, por marca e por classe.
+
+------------------------------------------
+Eventos DOM
+É tudo aquilo que pode acontecer com uma div
+exemplos:
+Mouseenter
+mousemove
+mousedown
+mouseup
+click
+mouseout
+lista de eventos https://developer.mozilla.org/en-US/docs/Web/Events
+podem ser utilizados com metódo html ou diretamente no JavaScript
+
+O que é uma função?
+um conjunto de códigos que serão executadas apenas quando o evento ocorrer.
+deve ser delimitado por um bloco
+uma função precisa de um nome de acordo com sua ação
+fuction ação(param){
+
+}
