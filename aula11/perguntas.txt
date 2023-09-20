@@ -5,4 +5,33 @@ R: Mouseenter, click e mousedown.
 R: é uma determinada ação que só será executada quando o evento ocorrer. Você precisa nomea-la de acordo com sua função.
 
 3 - Sabe como pegar os valores de caixas de texto e fazer cálculos com eles?
-R:Você precisaeá declarar uma variável fazendo com que os dados coletados nas caixas de texto fiquem guardadas (pode ser utilizados os names ou id das devidas caixas) e irá declarar também uma variávelpara soma, que irá receber o resultado de sua conta.
+R:Você precisaeá declarar uma variável fazendo com que os dados coletados nas caixas de texto fiquem guardadas (pode ser utilizados os names ou id das devidas caixas) e irá declarar também uma variável para soma, que irá receber o resultado de sua conta.
+
+------------------------------------------
+condições em JavaScript pt.1
+sequência{
+    var n = 3
+    n += 2
+    window.alert(n)
+}
+condições{
+   exemplo de condição[
+        if (condição){
+            true
+        } else{
+            false
+        }
+    ]
+    tipos de condição[
+        condição simples(
+        if (condição){
+            true
+        }
+        )
+        if (condição){
+            true
+        } else{
+            false
+        }
+    ]
+}
