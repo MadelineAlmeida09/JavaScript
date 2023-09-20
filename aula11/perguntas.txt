@@ -1,0 +1,8 @@
+1 - Consegue citar três eventos que podem acontecer com elementos DOM de um site?
+R: Mouseenter, click e mousedown.
+
+2 - O que é uma função? Como criar funções em JS?
+R: é uma determinada ação que só será executada quando o evento ocorrer. Você precisa nomea-la de acordo com sua função.
+
+3 - Sabe como pegar os valores de caixas de texto e fazer cálculos com eles?
+R:Você precisaeá declarar uma variável fazendo com que os dados coletados nas caixas de texto fiquem guardadas (pode ser utilizados os names ou id das devidas caixas) e irá declarar também uma variávelpara soma, que irá receber o resultado de sua conta.
