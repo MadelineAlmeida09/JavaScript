@@ -1,0 +1,13 @@
+1 - Já sabe como usar a extensão Node Exec no VSCode?
+R: usando as teclas ALT+F8
+
+2 - Sabe criar uma condição em seu programa JS?
+R: temos que criar uma comparação entre a variável e e determinado valor
+
+3 - Consegue diferenciar condições simples e as condições compostas?
+R: condições simples tem apenas uma condição (if || se); 
+condições compostas tem duas variações: if e else(então)
+
+------------------------------------------
+Condições em JS pt.2
+

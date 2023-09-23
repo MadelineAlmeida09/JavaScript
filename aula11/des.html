@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio</title>
 </head>
+
 <body>
-    <h2>Em qual país você está morando atualmente?</h2>
+    <h2>Em qual país você nasceu?</h2>
     <input type="text" name="pais" id="pais">
     <input type="submit" value="Enviar" onclick="nacionalidade()">
     <div id="nas"></div>
     <script>
         function nacionalidade(){
-            var ps = window.document.querySelector('input#pais')
-            var nasc = window.document.querySelector('input#nas')
-            nasc.innerHTML = (`Você está morando em <strong>${ps}</strong>`)
-            if(ps == Brasil){
-                nasc.innerHTML += (`Você é brasileiro`)
+            ps = document.querySelector('input#pais')
+            nasc = document.querySelector('div#nas')
+
+            pas = ps.value
+            nasc.innerHTML = `Você nasceu em ${pas}!`
+
+            if(pas == 'Brasil'){
+                nasc.innerHTML += `<br>Você é Brasileiro!`
+                nasc.style.color = 'green'
             } else{
-                nasc.innerHTML += (`Você é estrangeiro`)
+                nasc.innerHTML += `<br>Você é Estrangeiro!`
             }
         }
     </script>
 </body>
+
 </html>

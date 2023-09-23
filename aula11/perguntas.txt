@@ -28,6 +28,7 @@ condições{
             true
         }
         )
+        condições compostas
         if (condição){
             true
         } else{
