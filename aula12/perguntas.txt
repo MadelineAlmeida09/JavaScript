@@ -11,3 +11,31 @@ condições compostas tem duas variações: if e else(então)
 ------------------------------------------
 Condições em JS pt.2
 
+Condições aninhadas[
+    if(cond1){
+        bloco1
+    } else{
+        if(cond2){
+            bloco2
+        } else{
+            bloco3
+        }
+    }
+]
+Condição Múltipla[
+    switch(expressão){
+        case valor 1:
+
+        break
+        case valor 2:
+
+        break
+        case valor 3:
+
+        break
+        default:
+
+        break
+        break é obrigatório
+    }
+]
