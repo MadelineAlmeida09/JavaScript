@@ -4,7 +4,7 @@ var diasem = agora.getDay()
 0 == Domingo, 1 == Segunda, 2 == Terça,
 3 == Quarta, 4 == Quinta, 5 == Sexta, 
 6 == Sábado */
-e
+
 switch(diasem){
     case 0:
         console.log("Domingo")
@@ -29,4 +29,5 @@ switch(diasem){
     break
     default:
         console.log("[ERRO] Dia inválido")
+    break
 }
