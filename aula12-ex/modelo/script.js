@@ -1,1 +1,1 @@
-alert ("Olá!")
+var msg = document.getElementById('msg')
